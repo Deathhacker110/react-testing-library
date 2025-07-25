@@ -1,0 +1,2 @@
+import '@testing-library/jest-dom'; 
+// This import is necessary to extend Jest's matchers with additional DOM-related assertions, such as `toBeInTheDocument()`, which is commonly used in React testing with Testing Library.
