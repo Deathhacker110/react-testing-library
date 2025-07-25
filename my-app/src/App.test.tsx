@@ -5,7 +5,7 @@ test("avvudda", () => {
     // const {debug}=render(<App />);
     // debug();
     render(<App />)
-    const linkElement = screen.getByText(/Vite React/i);
+    const linkElement = screen.getByText(/Vite React \+ Typescript/i);
     expect(linkElement).toBeInTheDocument();
 });
 
